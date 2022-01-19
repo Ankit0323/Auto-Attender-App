@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/blue2"
+    tools:context="com.example.filemanager.FileActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Manager"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="40dp"
+
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+
+
+                android:layout_marginLeft="20dp"
+                android:id="@+id/saveCardView"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+             android:gravity="center"
+                    android:orientation="vertical">
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/savefolder"
+        android:layout_height="90dp"
+        android:src="@drawable/folder"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+      android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saved Files"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textColor="@color/blue4"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                app:cardBackgroundColor="@color/light1"
+                android:id="@+id/pdfCardView"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:id="@+id/pdffolder"
+                android:layout_height="90dp"
+                android:src="@drawable/folder"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pdf Files"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textColor="@color/blue4"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                app:cardBackgroundColor="@color/white"
+             android:layout_marginRight="20dp"
+                app:cardCornerRadius="15dp"
+                android:id="@+id/docAndPptCardView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/docAndPptfolder"
+                    android:layout_height="90dp"
+                    android:src="@drawable/folder"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:layout_gravity="center"/>
+                 <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Doc and Ppt "
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textColor="@color/blue4"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="540dp"
+app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pdfCardView"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="50dp"
+                app:cardBackgroundColor="@color/blue2"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="pdf"
+                        android:id="@+id/pdf"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="doc  "
+                        android:visibility="gone"
+                        android:layout_weight="1"
+                        android:id="@+id/doc"
+                        android:textSize="18dp"
+                        android:textColor="@color/grey1"
+                        android:layout_marginLeft="20dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="ppt "
+                        android:visibility="gone"
+                        android:id="@+id/ppt"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textColor="@color/grey1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="5dp"/>
+
+                </LinearLayout>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="500dp"
+
+                   android:layout_marginTop="40dp"
+                   app:cardCornerRadius="20dp"
+                   >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:elevation="2dp"
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+       >
+
+        <!-- Adding 7 rows of placeholders -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+            <include layout="@layout/data_placeholder_layout" />
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+
+        android:id="@+id/listRecycler"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/noFiles"
+        android:elevation="1dp"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:text="No Saved FIles"
+        android:textSize="25dp"
+        android:textColor="@color/grey1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+               </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

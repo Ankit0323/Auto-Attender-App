@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107781041338",
+    "project_id": "auto-attender",
+    "storage_bucket": "auto-attender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107781041338:android:1c98e4de89a489396d6683",
+        "android_client_info": {
+          "package_name": "com.example.autoattenderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107781041338-tq6bu00vpuof7is8k1gu18m22kiop79s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autoattenderapp",
+            "certificate_hash": "c4aa8f216d31a65332a9677cf69f2ed2eaa506ad"
+          }
+        },
+        {
+          "client_id": "107781041338-k9hsjfhqa603qds5trhsh8tg0u40srtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJgXdxmBdzfzcsjDCGRdzyxbzI_MxXzS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107781041338-k9hsjfhqa603qds5trhsh8tg0u40srtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

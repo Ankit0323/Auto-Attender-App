@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".signup.ForgotActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:src="@drawable/bot"
+    android:scaleType="fitXY"
+    android:layout_marginBottom="20dp"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="FORGOT PASSWORD?"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:text="Enter your Email address, we'll send you a request on your email to reset your password"
+    android:layout_marginBottom="20dp"
+
+    android:textSize="15dp"/>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    >
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email"
+
+        android:inputType="textCapWords"
+        android:textColorHint="@color/light"
+        android:textColor="@color/black"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+    android:textSize="20dp"
+    android:id="@+id/submitbtn"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="10dp"
+
+    android:backgroundTint="@color/black"
+    android:padding="10dp"/>
+
+</LinearLayout>

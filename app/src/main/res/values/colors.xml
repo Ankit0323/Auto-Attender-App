@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white1">#FFFCFC</color>
+    <color name="blue">#246EE9</color>
+    <color name="blue1">#E4249AE9</color>
+    <color name="blue2">#078BDC</color>
+    <color name="grey">#CACDDF</color>
+    <color name="grey2">#F5F5F8</color>
+    <color name="grey1">#A6ACD1</color>
+    <color name="dark">#0E2493</color>
+    <color name="pale">#00B8D4</color>
+
+
+    <color name="light">#AFC8F3</color>
+    <color name="light1">#C2D5EF</color>
+    <color name="light2">#7DA5DC</color>
+
+    <color name="c1">#5846c7</color>
+    <color name="c2">#6958d2</color>
+    <color name="c3">#7b87c5</color>
+    <color name="c4">#2596be</color>
+    <color name="c5">#5450d6</color>
+    <color name="c6">#dbe9f7</color>
+    <color name="blue3">#E426AAE6</color>
+    <color name="blue4">#044BD9</color>
+    <color name="blue5">#0460D9</color>
+
+    <color name="lightGray">#E6E6E6</color>
+    <color name="darkGray">#4B4B4B</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+    <color name="today_border">#e4e4e4</color>
+    <color name="today_background">#85f7f7f7</color>
+    <color name="colorPrimary">#37474f</color>
+    <color name="secundaryTextColor">#757575</color>
+    <color name="primaryTextColor">#4d4d4d</color>
+    <color name="colorHover">#30818181</color>
+
+
+</resources>
