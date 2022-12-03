@@ -10,8 +10,8 @@ Making the App primarily running on cloud and reducing the user device interacti
 6. Sends notification when bot joins or leaves meeting.
 
 ### Working
-1. When you input your meeting information, Bot will automatically called from the android app and the required information is shared with it, Bot will wait for the required time.
-2.And after wait time is over, bot will sign in into user’s google account and join the meeting.
+1. When you input your meeting information, Bot will automatically called from the android app and the required information is shared with it, Bot will wait for the required time.\
+2.And after wait time is over, bot will sign in into user’s google account and join the meeting.\
 3.Bot is developed using javascript, running on node js environment and is deployed on google firebase cloud server, bot program is triggered using cloud functions.
 
 ### How to use
@@ -22,7 +22,7 @@ Enter your Email \
 Enter your Password\
 User has to Login in app to start using the services \
 
-####Scheduling a meeting:
+#### Scheduling a meeting:
          1. Add your meeting information to your scheduler:\
          a)Meeting link\
                  b) Start time\
