@@ -35,16 +35,16 @@ Enter your Password\
 User has to Login in app to start using the services 
 
 #### Scheduling a meeting:
-         1. Add your meeting information to your scheduler:\
+         1. Add your meeting information to your scheduler:
          a)Meeting link
                  b) Start time
                  c) end time
                  d) duration
           2. when the meeting begin bot will join the meeting with your   
               profile and it will
-              automatically switch off the camera and mic.\
+              automatically switch off the camera and mic.
           3. After the scheduled interval the bot will automatically  
-              leaves the meeting and notifies user.\
+              leaves the meeting and notifies user.
               Saving and managing documents:
 
 
