@@ -1,6 +1,5 @@
 # Auto-Attender-App
-The prime objective of “Auto Attender App“ is to develop a full fledged Android Application that can provide an easy to use interface for scheduling an online meeting and to easily manage their daily schedule.\
-Making the App primarily running on cloud and reducing the user device interaction while he is in meeting.Make Bot (Javascript program) joining and leaving the meeting on time. Managing the user workload by enabling pre scheduling of classes and creating a file manager for storing daily documents on Day and Class basis.
+Auto Attender is a bot online meeting attending app that provides the user with the facility to attend multiple meetings at a time. \ It is a simple platform which works to solve the problem of attending the meeting of the user. Now the user can easily attend the meeting anywhere by becoming their bot without wasting any time.Managing the user workload by enabling pre scheduling of classes and creating a file manager for storing daily documents on Day and Class basis.
 ## Features
 1. Automatically join a meeting if available with your mic and camera off.
 2. Add a random delay (10s - 180s) between joining and leaving meeting.
@@ -34,14 +33,18 @@ User has to Login in app to start using the services \
           3. After the scheduled interval the bot will automatically  
               leaves the meeting and notifies user.\
               Saving and managing documents:
-#### Saving and Managing Documents
 
-This app includes some important features like \
-1.Todo/Notes and file manager.\
-2.Todo  is a feature to create and edit text notes. Features:\
-a)No limits on note's length or number of notes (of course there's a limit to phone's storage).\
-b)Creating and editing text notes.\
-c)Automatically arranges PDF’ s and docs datawise.
+#### Meet Saver:
+Enhances privacy by automatically disabling the camera and microphone through the bot during meetings. Provides real-time notifications for meeting updates, ensuring users stay informed.
+
+#### 🗒️ To-Do App:
+Facilitates efficient task management with a synced notes feature based on dates. Users can create and organize notes, ensuring nothing falls through the cracks.
+
+#### 📂 File Manager:
+Introduces a practical file management solution that categorizes documents based on both the day and the class. Files are saved and synchronized for easy access and reference.
+
+#### 💾 File Synchronization:
+With the Meet Saver feature, the app centralizes all meeting links, offering a convenient repository for easy access. This helps users stay organized by ensuring they have all relevant meeting information in one place.
 
 
 
