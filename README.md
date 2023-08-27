@@ -32,14 +32,14 @@ The following configuration is asked when you
 start the Application:\
 Enter your Email \
 Enter your Password\
-User has to Login in app to start using the services \
+User has to Login in app to start using the services 
 
 #### Scheduling a meeting:
          1. Add your meeting information to your scheduler:\
-         a)Meeting link\
-                 b) Start time\
-                 c) end time\
-                 d) duration\
+         a)Meeting link
+                 b) Start time
+                 c) end time
+                 d) duration
           2. when the meeting begin bot will join the meeting with your   
               profile and it will
               automatically switch off the camera and mic.\
